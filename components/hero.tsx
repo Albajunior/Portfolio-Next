@@ -11,7 +11,7 @@ export default function Hero() {
             <h1 className={styles.heroTitle}>Amadou GUISSE</h1>
             <h2 className={styles.heroSubtitle}>Développeur Junior - Full JS - Php Symfony</h2>
             <div className={styles.contactInfo}>
-              <p>24 ans - Lyon (Prêt à déménager)</p>
+              <p>25 ans - Lyon (Prêt à déménager)</p>
               <p>
                 <a href="tel:0752674346">☎ 07 52 67 43 46</a>
               </p>
