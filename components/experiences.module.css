@@ -1,0 +1,215 @@
+/* .experiences {
+    background: linear-gradient(to bottom right, var(--primary-light), var(--light-bg));
+    padding: 4rem 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--gray-800);
+  }
+  
+  .experienceList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .experienceCard {
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid var(--primary-color);
+  }
+  
+  .experienceHeader {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .experienceRole {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-800);
+  }
+  
+  .experienceCompany {
+    color: var(--gray-600);
+  }
+  
+  .experiencePeriod {
+    color: var(--gray-600);
+    margin-top: 0.5rem;
+  }
+  
+  .experienceTasks {
+    list-style-position: inside;
+    margin-bottom: 0.75rem;
+    color: var(--gray-700);
+  }
+  
+  .experienceTools {
+    color: var(--gray-700);
+    margin-top: 0.75rem;
+  }
+  
+  .toolsLabel {
+    font-weight: 500;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .experienceHeader {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .experiencePeriod {
+      margin-top: 0;
+    }
+  } */
+
+  
+
+  .experiences {
+    background: linear-gradient(to bottom right, var(--primary-light), var(--light-bg));
+    padding: 4rem 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--gray-800);
+  }
+  
+  .experienceList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .experienceCard {
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Pour que les deux divs aient la même hauteur */
+  }
+  
+  .experienceContent {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  
+  .experienceRole {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-800);
+    margin-bottom: 0.5rem;
+  }
+  
+  .companyInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .experienceCompany {
+    color: var(--gray-600);
+    margin-right: 0.5rem;
+  }
+  
+  .experiencePeriod {
+    display: inline-block;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
+  
+  .experienceTasks {
+    list-style-position: inside;
+    margin-bottom: 0.75rem;
+    color: var(--gray-700);
+  }
+  
+  .experienceTools {
+    color: var(--gray-700);
+    margin-top: 0.75rem;
+  }
+  
+  .toolsLabel {
+    font-weight: 500;
+  }
+  
+  .logoContainer {
+    flex: 0 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+  
+  .logoLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .logoLink:hover {
+    transform: scale(1.05);
+  }
+  
+  .companyLogo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+  }
+  
+  @media (max-width: 767px) {
+    .experienceCard {
+      flex-direction: column;
+    }
+  
+    .experienceContent {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 1.5rem;
+    }
+  
+    .logoContainer {
+      flex: 0 0 100%;
+      padding-left: 0;
+      align-self: center;
+    }
+  }
+  
