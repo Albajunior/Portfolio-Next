@@ -33,7 +33,7 @@ export default function Hero() {
             recherche d&apos;un CDI ou CDD en développement web pour mettre à profit mes compétences et contribuer aux
             projets innovants de votre entreprise.
             </p>
-            <p className={styles.availability}>Disponibilité: À partir du mois de Mai 2025.</p>
+            <p className={styles.availability}>Disponibilité: Asap</p>
           </div>
           <div className={styles.heroImage} >
             <div className={styles.profileImage} >
