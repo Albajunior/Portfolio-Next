@@ -26,9 +26,9 @@ export default function Hero() {
                   <Linkedin className={styles.icon} />
                 </a>
               </div>
-            </div>
+            </div>ÒÒ
             <p className={styles.heroDescription}>
-            Développeur Full-Stack spécialisé en Symfony (PHP 🐘), JavaScript (Vue.js/Node.js 🌐) et en gestion de projet 🎯, 
+            Développeur Full-Stack spécialisé en Symfony (PHP 🐘), JavaScript (Vue.js/Node.js🌐) et en gestion de projet 🎯, 
             je conçois et développe des applications web robustes ⚙️, sécurisées 🔐 et évolutives 🚀.
             J’aime transformer les idées en applications utiles, avec le souci d&apos;un code de
              qualité et d’une expérience utilisateur fluide et agréable.
