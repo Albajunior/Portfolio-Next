@@ -9,7 +9,7 @@ export default function Hero() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <h1 className={styles.heroTitle}>Amadou GUISSE</h1>
-            <h2 className={styles.heroSubtitle}>Développeur Junior - Full JS - Php Symfony</h2>
+            <h2 className={styles.heroSubtitle}>Développeur Full Stack - JS (Node, Vue) - Php Symfony </h2>
             <div className={styles.contactInfo}>
               <p>25 ans - Lyon (Prêt à déménager)</p>
               <p>
@@ -28,10 +28,10 @@ export default function Hero() {
               </div>
             </div>
             <p className={styles.heroDescription}>
-            Titulaire d’un Mastère 2 en Système d’information et Sécurité, après deux années d’alternance en développement web 
-            et gestion de projet, je suis à la
-            recherche d&apos;un CDI ou CDD en développement web pour mettre à profit mes compétences et contribuer aux
-            projets innovants de votre entreprise.
+            Développeur Full-Stack spécialisé en Symfony (PHP 🐘), JavaScript (Vue.js/Node.js 🌐) et en gestion de projet 🎯, 
+            je conçois et développe des applications web robustes ⚙️, sécurisées 🔐 et évolutives 🚀.
+            J’aime transformer les idées en applications utiles, avec le souci d&apos;un code de
+             qualité et d’une expérience utilisateur fluide et agréable.
             </p>
             <p className={styles.availability}>Disponibilité: Asap</p>
           </div>
