@@ -3,24 +3,24 @@ import Image from 'next/image'
 
 const experiences = [
   {
-    role: "Développeur Web - Assistant Chef de projet - Support Technique",
-    company: "Carrefour",
+    role: "Développeur Web Full Stack - Assistant Chef de projet ",
+    company: "16Distrub",
     location: "Lyon",
-    period: "Avril 2024 - AUJOURD'HUI - ALTERNANCE",
+    period: " 2024 - 2025 ",
     tasks: [
       "Développement et mise en place d'une application de gestion.",
       "Automatisation et optimisation des tâches.",
       "Analyse des besoins, gestion des produits et proposition de solutions innovantes.",
     ],
     tools: "Node.js, Vue.js, MongoDB, VBA, Html, Css...",
-    logo: "/images/IMG_9330.png", // Logo Carrefour
+    logo: "/images/carrefour.png", // Logo Carrefour
     website: "https://www.carrefour.fr",
   },
   {
     role: "Développeur Web",
     company: "AtooSurf",
     location: "Paris",
-    period: "2022 - 2023 - ALTERNANCE",
+    period: "2023 - 2024",
     tasks: [
       "Création d'Application Web (hébergement, logo, référencement...).",
       "Gestion de Projet.",
@@ -35,7 +35,7 @@ const experiences = [
     role: "Développeur Web Junior",
     company: "Deltrax Africa",
     location: "Dakar",
-    period: "Août 2021 - Octobre 2021 - STAGE",
+    period: "2 mois de STAGE",
     tasks: [
       "Initialisation a la Cryptomonnaie.",
       "Refonte du site web de l'entreprise.",
