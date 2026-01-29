@@ -9,7 +9,7 @@ export default function Hero() {
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
             <h1 className={styles.heroTitle}>Amadou GUISSE</h1>
-            <h2 className={styles.heroSubtitle}>Développeur Full Stack - JS (Node, Vue) - Php Symfony </h2>
+            <h2 className={styles.heroSubtitle}>Développeur Full Stack - PHP / Symfony / Node.js / React</h2>
             <div className={styles.contactInfo}>
               <p>Lyon (Prêt à déménager)</p>
               <p>

@@ -13,7 +13,7 @@ const experiences = [
       "Analyse des besoins, gestion des produits et proposition de solutions innovantes.",
     ],
     tools: "Node.js, Vue.js, MongoDB, VBA, Html, Css...",
-    logo: "/images/carrefour.png", // Logo Carrefour
+    logo: "/images/distrub.jpg", // Logo Carrefour
     website: "https://www.carrefour.fr",
   },
   {

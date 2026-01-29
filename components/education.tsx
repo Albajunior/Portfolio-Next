@@ -2,27 +2,21 @@ import styles from "./education.module.css"
 
 const education = [
   {
-    degree: "Bac+5 Chef de projet web et cybersécurité (Alternance)",
+    degree: "Master informatique (Développement Web et Gestion de projet)",
     school: "Cloud Campus",
     location: "Paris",
-    period: "Mars 2024 - Mars 2025",
+    period: "Paris",
   },
   {
-    degree: "Bac+4 Développeur Web Full Stack (Alternance)",
-    school: "Cloud Campus",
-    location: "Paris",
-    period: "Octobre 2022 - Novembre 2023",
-  },
-  {
-    degree: "Formation en Développeur Web (100% en ligne)",
-    school: "OpenClassroom",
-    period: "Février 2022 - Juin 2022",
+    degree: "Formation en Développement Web (100% en ligne)",
+    school: "",
+    period: "OpenClassroom",
   },
   {
     degree: "Licence informatique option Génie Logiciel",
     school: "Université Dakar Bourguiba",
-    location: "Dakar",
-    period: "Octobre 2018 - Juillet 2021",
+    location: "",
+    period: "Dakar",
   },
 ]
 

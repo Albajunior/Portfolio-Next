@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className={styles.container}>
         <div className={styles.navbarContent}>
           <a href="#" className={styles.logo}>
-            <Image src="/images/PhotoCv.jpg" alt="Amadou GUISSE" width={67} height={68} className={styles.logoImage} />
+            <Image src="/images/PhotoCV.jpg" alt="Amadou GUISSE" width={67} height={68} className={styles.logoImage} />
           </a>
           <div className={styles.navLinks}>
             {navItems.map((item, index) => (
